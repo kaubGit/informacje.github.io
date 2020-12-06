@@ -1,0 +1,159 @@
+header, nav, section, article, footer {display: block;}
+header {border-bottom: 2px dashed #000; clear: both; width: 100%;}
+nav {clear: both; width: 100%;}
+nav ul li {display: inline;}
+section#headline {clear: both; border: 3px solid #523900; padding: 1%; width: 97%;}
+section#sport, section#entertainment, section#computers {float: left; margin: 0 5px; padding: 1%; width: 30%;}
+aside, footer {clear: both;}
+aside img {border: 1px solid; margin: 0 10px 0 0;}
+
+nav ul {
+
+        display: flex;
+        justify-content: space-around;
+}
+
+nav ul li a {
+
+        display: block;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: #fff7eb;
+}
+
+header, nav ul, #headline, aside, footer {
+
+        text-align: center;
+}
+
+
+#sport, #entertainment {
+
+        border-right: 2px solid #000;
+}
+
+#holder {
+
+        display: flex;
+        justify-content: center;
+        border: 5px solid #000;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+body {
+
+        background-color: #fcd7ae;
+}
+
+#jeszczejeden {
+
+        padding: 10px;
+        border-radius: 20px;
+}
+
+#headline {
+
+        border-radius: 20px;
+}
+
+footer {
+
+        background-color: #fab48c;
+        border-radius: 20px;
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border: 3px solid #523900;
+}
+
+aside {
+
+        padding-top: 20px;
+}
+
+aside img {
+
+        border-color: #000;
+}
+
+#div1 {
+
+        height: auto;
+        border: 3px solid #523900;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        background-color: #fab48c;
+}
+
+nav ul li a{
+        
+        font-size: large;
+        font-weight: 500;
+        text-decoration: none;
+        color: #000;
+        transition-duration: 0.2s;
+}
+
+@media (max-width: 720px) {
+
+        #holder {
+
+                flex-direction: column;
+                justify-content: left;
+        }
+
+        section#sport, section#entertainment, section#computers {
+
+                width: auto;
+                border-right: 0px;
+        }
+
+        section#sport, section#entertainment {
+
+                border-bottom: 2px solid black;
+        }
+
+        nav ul {
+
+                flex-direction: column;
+                align-content: space-around;
+                padding: 10px; 
+                padding-bottom: 0;
+        }
+
+        nav ul li {
+
+                padding-bottom: 10px;
+        }
+}
+
+@media (min-width: 721px) {
+
+        nav ul li a:hover {
+
+                padding: 20px;
+        }
+}
+
+#holder {
+
+        display: flex;
+        justify-content: center;
+        border: 3px solid #523900;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+#holder h1 {
+
+        text-align: center;
+}
+
+.art a {
+
+        color: #ab6700;
+        text-decoration: orange;
+}
