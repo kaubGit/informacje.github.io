@@ -10,7 +10,7 @@ aside img {border: 1px solid; margin: 0 10px 0 0;}
 nav ul {
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 }
 
 nav ul li a {
