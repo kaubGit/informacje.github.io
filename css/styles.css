@@ -10,7 +10,7 @@ aside img {border: 1px solid; margin: 0 10px 0 0;}
 nav ul {
 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
 }
 
 nav ul li a {
@@ -97,6 +97,12 @@ nav ul li a{
         transition-duration: 0.2s;
 }
 
+aside {
+
+        display: flex;
+        justify-content: space-around;
+}
+
 @media (max-width: 720px) {
 
         #holder {
@@ -127,6 +133,14 @@ nav ul li a{
         nav ul li {
 
                 padding-bottom: 10px;
+        }
+}
+
+@media (max-width: 450px) {
+
+        aside {
+
+                display: inline-block;
         }
 }
 
