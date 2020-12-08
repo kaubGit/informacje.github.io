@@ -103,7 +103,7 @@ aside {
         justify-content: space-around;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1000px) {
 
         #holder {
 
@@ -144,7 +144,7 @@ aside {
         }
 }
 
-@media (min-width: 721px) {
+@media (min-width: 1001px) {
 
         nav ul li a:hover {
 
@@ -161,13 +161,18 @@ aside {
         margin-top: 10px;
 }
 
-#holder h1 {
-
-        text-align: center;
-}
-
 .art a {
 
         color: #ab6700;
         text-decoration: orange;
+}
+
+.nag {
+
+        font-size: xx-large;
+}
+
+.sr {
+
+        text-align: center;
 }
